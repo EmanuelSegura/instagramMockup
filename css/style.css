@@ -1,0 +1,169 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    
+    .content {
+        margin: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    /* APP */
+    
+    .app {
+        width: 375px;
+        height: 812px;
+    }
+    
+    .headInstagram {
+        width: 375px;
+        height: 215px;
+    }
+    
+    .titleInstagram {
+        margin: 10px 0;
+        width: 375px;
+        height: 32px;
+    }
+    
+    .photoInstagram {
+        width: 375px;
+        height: 339px;
+    }
+    
+    .interactionPostInstagram {
+        margin: 10px 0;
+        width: 375px;
+        height: 22.59px;
+    }
+    
+    .likesPostInstagram {
+        width: 375px;
+        height: 17px;
+    }
+    
+    .infoPostInstagram {
+        margin: 0 0 10px 0;
+        width: 375px;
+        height: 34px;
+    }
+    
+    .tabsInstagram {
+        width: 375px;
+        height: 86px;
+    }
+    /* STATUS BAR */
+    
+    .statusBar {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #leftStatusBar {
+        margin: 25px 0 0 33px;
+    }
+    
+    .rightStatusBar {
+        margin: 18px 14px 0 0;
+    }
+    /* PHOTO - LOGO - DIRECT */
+    
+    .headerLogo {
+        display: flex;
+        justify-content: space-between;
+        margin: 25px 10px 0 10px;
+    }
+    
+    .igLogo {
+        align-self: center;
+    }
+    /* STORIES */
+    
+    .storysGroup {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    
+    #dividerStories {
+        margin-bottom: 10px;
+    }
+    /* TITLE PHOTO */
+    
+    .titlePhoto {
+        display: flex;
+    }
+    
+    .infoTitle {
+        margin: 0 10px 0 10px;
+        justify-content: flex-end;
+        align-self: center;
+    }
+    
+    .infoTitleVertical {
+        display: flex;
+        margin: 0 210px 0 0;
+    }
+    
+    #marginTitle {
+        margin-bottom: 5px;
+    }
+    /* INTERACTION POST */
+    
+    .interaction {
+        display: flex;
+    }
+    
+    .leftSideInteraction {
+        margin: 0 0px 0 10px;
+    }
+    
+    .rightSideInteraction {
+        margin: 0 10px 0 240px;
+    }
+    /* LIKES */
+    
+    .likes {
+        display: flex;
+    }
+    
+    #likesPost {
+        font-size: 13.5px;
+        margin: 0 10px 0 10px;
+    }
+    
+    .likeBold {
+        font-weight: 600;
+    }
+    /* INFO POST FEED */
+    
+    .infoPost {
+        font-size: 13.5px;
+        margin: 5px 0 0 10px;
+    }
+    /* hashtag feed */
+    
+    .hashtag {
+        color: #306197;
+    }
+    /* TABS */
+    
+    .tabs {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 10px 0 10px;
+        align-items: center;
+    }
+    /* IPHONE HOME TAB */
+    
+    .homeIphone {
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+    }
